@@ -10,7 +10,9 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <ul>
-        <li className={styles.title}>Finance Tracker</li>
+        <li className={styles.title}>
+          <Link to="/">Finance Tracker</Link>
+        </li>
 
         {!user && (
           <>
